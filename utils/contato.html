@@ -1,106 +1,109 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <title>M2 Solutions</title>
 
-        <!-- Ícone do Título da Página no Navegador-->
-        <link rel="icon" type="image/png" href="/utils/imagens/logo/logo_transparent.png" />
+<head>
+    <title>M2 Solutions</title>
 
-        <!-- meta tags utilizadas pelo navegador e pelo google -->
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="robots" content="all" />
-        <meta name="rating" content="general" />
-        <meta name="distribution" content="global" />
-        <meta name="language" content="pt-br" />
-        <meta property="locale" content="pt-br"/>
-        <meta name="content-language" content="portuguese" />
-        <meta name="doc-class" content="completed" /> 
-        <meta name="description" content="Formulário para entrar em contato">
-        <meta name="abstract" content="Entrar em contato"/>
-        <meta name="keywords" content="contato, mensagem, whatsapp, email, telefone, message" />
-        <meta name="title" content="M2 Serices" />
-        <meta name="identifier-url" content="m2services.com/contato.html" />
-        <meta itemprop="url" content="m2services.com/contato.html">
-        <meta name="author" content="M2 Services" />
-        <meta name="reply-to" content="matheusquost+m2services@gmail.com"/>
+    <!-- Ícone do Título da Página no Navegador-->
+    <link rel="icon" type="image/png" href="utils/imagens/logo/logo_transparent.png" />
 
-        <!-- Importar arquivos CSS -->
-        <link rel="stylesheet" href="/utils/bootstrap/css/bootstrap.css">
-        <link rel="stylesheet" href="/utils/principal.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
-    </head>
-    <body>
-        <!-- Conteúdo do Site -->
-        <div class="container-fluid fullscreen-bg">
-            <video loop muted autoplay poster="/utils/imagens/fundo.png" class="fullscreen-bg__video">
-                <source src="/utils/imagens/fundo.mp4" type="video/mp4">
+    <!-- meta tags utilizadas pelo navegador e pelo google -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="robots" content="all" />
+    <meta name="rating" content="general" />
+    <meta name="distribution" content="global" />
+    <meta name="language" content="pt-br" />
+    <meta property="locale" content="pt-br" />
+    <meta name="content-language" content="portuguese" />
+    <meta name="doc-class" content="completed" />
+    <meta name="description" content="Formulário para entrar em contato">
+    <meta name="abstract" content="Entrar em contato" />
+    <meta name="keywords" content="contato, mensagem, whatsapp, email, telefone, message" />
+    <meta name="title" content="M2 Serices" />
+    <meta name="identifier-url" content="m2services.com/contato.html" />
+    <meta itemprop="url" content="m2services.com/contato.html">
+    <meta name="author" content="M2 Services" />
+    <meta name="reply-to" content="matheusquost+m2services@gmail.com" />
+
+    <!-- Importar arquivos CSS -->
+    <link rel="stylesheet" href="utils/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="utils/principal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+</head>
+
+<body>
+    <!-- Conteúdo do Site -->
+    <div class="container-fluid fullscreen-bg">
+        <video loop muted autoplay poster="utils/imagens/fundo.png" class="fullscreen-bg__video">
+                <source src="utils/imagens/fundo.mp4" type="video/mp4">
             </video>
-        </div>         
-        <nav class="navbar navbar-light bkgnav">
-            <div class="col-lg-3"></div>
-            <div class="col-lg-3">
-                <img class="logo" src="/utils/imagens/logo/logo_transparent.png">
-                <h7 class="logo-text">M2 Solutions</h7>
-            </div>
-            <div class="col-lg-6">
-                <div class="row">
-                    <div class="col"><a class="navbar-brand botao tagA" href="../index.html">Início</a></div>
-                    <div class="col"><a class="navbar-brand botao tagA" href="/utils/sobre.html">Sobre</a></div>
-                    <div class="col"><a class="navbar-brand botao tagA" href="/utils/portfolio.html">Portfólio</a></div>
-                    <div class="col"><a class="navbar-brand botaoActive tagA" href="/utils/contato.html">Contato</a></div>
-                    <div class="col"></div>
-                </div>
-            </div>
-        </nav>
-        <div class="container-fluid">
+    </div>
+    <nav class="navbar navbar-light bkgnav">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-3">
+            <img class="logo" src="utils/imagens/logo/logo_transparent.png">
+            <h7 class="logo-text">M2 Solutions</h7>
+        </div>
+        <div class="col-lg-6">
             <div class="row">
-                <div class="col-lg-5"></div>
-                <div class="col-lg-5">
-                    <h1 class="center titulo mg-contato">Contato</h1>
-                    <small class="obrig">*Campos Obrigatórios</small>
-                </div>
-                <div class="col-lg-2"></div>
-            </div>
-            <div class="row">
-                <div class="col-lg-5"></div>
-                <div class="col-lg-5">
-                    <form class="mg-form">
-                        <div class="form-group">
-                            <label for="formGroupExampleInput">Nome*</label>
-                            <input type="text" class="form-control" required placeholder="Nome">
-                        </div>
-                        <div class="form-group">
-                            <label for="formGroupExampleInput2">E-mail*</label>
-                            <input type="email" class="form-control" required placeholder="nome@exemplo.com">
-                            <small id="emailHelp" class="obrig">Nunca vamos compartilhar seu email, com ninguém.</small>
-                        </div>
-                        <div class="form-group">
-                            <label for="formGroupExampleInput3">Telefone</label>
-                            <input type="tel" class="form-control" id="telefone" placeholder="Telefone" onkeypress="return MascaraTelefone(this, event);" maxlength="18"> 
-                        </div>
-                        <div class="form-group">
-                                <label for="formGroupExampleInput4">Mensagem*</label><br \>
-                                <textarea class="form-control" type="text" required placeholder="Digite sua mensagem aqui."></textarea>
-                        </div>
-                        <div class="row form-group">
-                            <div class="col">
-                                <button type="submit" class="botao">Enviar</button>
-                            </div>
-                            <div class="col">
-                                <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5542991149052" target="_blank"><i class="alRight zmdi zmdi-whatsapp zmdi-hc-3x"></i></a>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                <div class="col-lg-2"></div>
+                <div class="col"><a class="navbar-brand botao tagA" href="../index.html">Início</a></div>
+                <div class="col"><a class="navbar-brand botao tagA" href="utils/sobre.html">Sobre</a></div>
+                <div class="col"><a class="navbar-brand botao tagA" href="utils/portfolio.html">Portfólio</a></div>
+                <div class="col"><a class="navbar-brand botaoActive tagA" href="utils/contato.html">Contato</a></div>
+                <div class="col"></div>
             </div>
         </div>
-        
-            <!-- Importar arquivos JS -->
-        <script src="/utils/jquery.js"></script>
-        <script src="/utils/bootstrap/js/bootstrap.js"></script>
-        <script src="/utils/principal.js"></script>
-    </body>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-5"></div>
+            <div class="col-lg-5">
+                <h1 class="center titulo mg-contato">Contato</h1>
+                <small class="obrig">*Campos Obrigatórios</small>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-5"></div>
+            <div class="col-lg-5">
+                <form class="mg-form">
+                    <div class="form-group">
+                        <label for="formGroupExampleInput">Nome*</label>
+                        <input type="text" class="form-control" required placeholder="Nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput2">E-mail*</label>
+                        <input type="email" class="form-control" required placeholder="nome@exemplo.com">
+                        <small id="emailHelp" class="obrig">Nunca vamos compartilhar seu email, com ninguém.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput3">Telefone</label>
+                        <input type="tel" class="form-control" id="telefone" placeholder="Telefone" onkeypress="return MascaraTelefone(this, event);" maxlength="18">
+                    </div>
+                    <div class="form-group">
+                        <label for="formGroupExampleInput4">Mensagem*</label><br \>
+                        <textarea class="form-control" type="text" required placeholder="Digite sua mensagem aqui."></textarea>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col">
+                            <button type="submit" class="botao">Enviar</button>
+                        </div>
+                        <div class="col">
+                            <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5542991149052" target="_blank"><i class="alRight zmdi zmdi-whatsapp zmdi-hc-3x"></i></a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+    </div>
+
+    <!-- Importar arquivos JS -->
+    <script src="utils/jquery.js"></script>
+    <script src="utils/bootstrap/js/bootstrap.js"></script>
+    <script src="utils/principal.js"></script>
+</body>
+
 </html>
