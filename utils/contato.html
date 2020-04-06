@@ -68,33 +68,34 @@
         <div class="row">
             <div class="col-lg-5"></div>
             <div class="col-lg-5">
-                <form class="mg-form">
-                    <div class="form-group">
-                        <label for="formGroupExampleInput">Nome*</label>
-                        <input type="text" class="form-control" required placeholder="Nome">
-                    </div>
-                    <div class="form-group">
-                        <label for="formGroupExampleInput2">E-mail*</label>
-                        <input type="email" class="form-control" required placeholder="nome@exemplo.com">
-                        <small id="emailHelp" class="obrig">Nunca vamos compartilhar seu email, com ninguém.</small>
-                    </div>
-                    <div class="form-group">
-                        <label for="formGroupExampleInput3">Telefone</label>
-                        <input type="tel" class="form-control" id="telefone" placeholder="Telefone" onkeypress="return MascaraTelefone(this, event);" maxlength="18">
-                    </div>
-                    <div class="form-group">
-                        <label for="formGroupExampleInput4">Mensagem*</label><br \>
-                        <textarea class="form-control" type="text" required placeholder="Digite sua mensagem aqui."></textarea>
-                    </div>
-                    <div class="row form-group">
-                        <div class="col">
-                            <button type="submit" class="botao">Enviar</button>
+                <form class="mg-form" method="POST" action="http://formspree.io/matheusquost@yahoo.com">
+                    <form>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput">Nome*</label>
+                            <input type="text" class="form-control" required placeholder="Nome">
                         </div>
-                        <div class="col">
-                            <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5542991149052" target="_blank"><i class="alRight zmdi zmdi-whatsapp zmdi-hc-3x"></i></a>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput2">E-mail*</label>
+                            <input type="email" class="form-control" required placeholder="nome@exemplo.com">
+                            <small id="emailHelp" class="obrig">Nunca vamos compartilhar seu email, com ninguém.</small>
                         </div>
-                    </div>
-                </form>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput3">Telefone</label>
+                            <input type="tel" class="form-control" id="telefone" placeholder="Telefone" onkeypress="return MascaraTelefone(this, event);" maxlength="18">
+                        </div>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput4">Mensagem*</label><br \>
+                            <textarea class="form-control" type="text" required placeholder="Digite sua mensagem aqui."></textarea>
+                        </div>
+                        <div class="row form-group">
+                            <div class="col">
+                                <button type="submit" class="botao">Enviar</button>
+                            </div>
+                            <div class="col">
+                                <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5542991149052" target="_blank"><i class="alRight zmdi zmdi-whatsapp zmdi-hc-3x"></i></a>
+                            </div>
+                        </div>
+                    </form>
             </div>
             <div class="col-lg-2"></div>
         </div>
