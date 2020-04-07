@@ -21,10 +21,55 @@
 }
 
 
+/* Comportamento em celulares: */
+
+@media only screen and (max-width: 480px) {
+    .esconde-cel {
+        display: none !important;
+    }
+    #eqp2 {
+        margin-top: 5%;
+    }
+    .titulo {
+        margin-top: 10%;
+    }
+    .mgtCel {
+        margin-top: 5%;
+    }
+}
+
+
 /* Estilo principal do site */
 
 
 /* Botões */
+
+.tagA {
+    position: relative;
+    padding: 10px 20px;
+    background: rgba(130, 132, 136, 0.123);
+    color: #ABB6FF;
+    font-size: 15px;
+    border-radius: 1px;
+}
+
+a.tagA:hover {
+    background: rgba(130, 132, 136, 0.253);
+    color: #ABB6FF;
+}
+
+.tagActive {
+    position: relative;
+    padding: 10px 20px;
+    color: rgba(0, 0, 0, 0.733);
+    font-size: 15px;
+    background-color: rgba(171, 182, 255, 0.562);
+}
+
+a.tagActive:hover {
+    background: rgba(171, 182, 255, 0.671);
+    color: rgba(0, 0, 0, 0.733);
+}
 
 .botao:hover {
     color: black;
@@ -256,7 +301,11 @@
 }
 
 .mgt-2 {
-    margin-top: 3%;
+    margin-top: 2%;
+}
+
+.mgt-5 {
+    margin-top: 5%;
 }
 
 .bkgnav {

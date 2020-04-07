@@ -44,94 +44,134 @@
     </script>
 
 
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="utils/bootstrap/css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="utils/bootstrap/css/mdb.min.css">
+
     <!-- Importar arquivos CSS -->
-    <link rel="stylesheet" href="utils/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="utils/principal.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
 </head>
 
 <body>
     <!-- Conteúdo do Site -->
-    <div class="container-fluid fullscreen-bg">
-        <video loop muted autoplay poster="utils/imagens/fundo.png" class="fullscreen-bg__video">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bkgnav2">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="utils/imagens/logo/logo_transparent.png" alt="logo M2 Solutions" height="40" width="45"> M2 Solutions
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <!-- Botão Ínicio -->
+                        <li class="nav-item">
+                            <a class="navbar-brand tagActive" href="index.html">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="navbar-brand tagA" href="utils/sobre.html">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="navbar-brand tagA" href="utils/portfolio.html">Portfólio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="navbar-brand tagA" href="utils/contato.html">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container-fluid fullscreen-bg">
+            <video loop muted autoplay poster="utils/imagens/fundo.png" class="fullscreen-bg__video">
                 <source src="utils/imagens/fundo.mp4" type="video/mp4">
             </video>
-    </div>
-    <nav class="navbar navbar-light bkgnav">
-        <div class="col-lg-3"></div>
-        <div class="col-lg-3">
-            <img class="logo" src="utils/imagens/logo/logo_transparent.png">
-            <h7 class="logo-text">M2 Solutions</h7>
         </div>
-        <div class="col-lg-6">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col"><a class="navbar-brand botaoActive tagA" href="index.html">Início</a></div>
-                <div class="col"><a class="navbar-brand botao tagA" href="utils/sobre.html">Sobre</a></div>
-                <div class="col"><a class="navbar-brand botao tagA" href="utils/portfolio.html">Portfólio</a></div>
-                <div class="col"><a class="navbar-brand botao tagA" href="utils/contato.html">Contato</a></div>
-                <div class="col"></div>
+                <div class="col-lg-4"></div>
+                <div class="col-lg-6">
+                    <h4 class="center titulo mg-contato">Soluções Digitais: Sites, Folders, Logos, Edição de Vídeos. <br><i>Contate-nos!</i></h4>
+                </div>
+                <div class="col-lg-2"></div>
             </div>
-        </div>
-    </nav>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-4"></div>
-            <div class="col-lg-6">
-                <h4 class="center titulo mg-contato">Soluções Digitais: Sites, Folders, Logos, Edição de Vídeos. <br><i>Contate-nos!</i></h4>
-            </div>
-            <div class="col-lg-2"></div>
-        </div>
-        <div class="row">
-            <div class="col-lg-3 col-md-12 col-sm-12"></div>
-            <div class="col-lg-9 col-md-12 col-sm-12">
-                <div class="row mgt-2">
-                    <div class="col-lg-2 col-md-12 col-sm-12"></div>
-                    <div class="col-lg-4 col-md-12 col-sm-12">
-                        <div class="equipe-area2 grow borderRadius mg-auto bkgnav">
-                            <div class="equipe-thumb">
-                                <img src="utils/imagens/matheus.jpg" class="img-200-200" alt="">
-                            </div>
-                            <div class="social-info">
-                                <a href="https://www.facebook.com/matheusquost" target="_blank"><i class="zmdi zmdi-facebook"></i></a>
-                                <a href="https://www.instagram.com/matheus_quost" target="_blank"><i class="zmdi zmdi-instagram"></i></a>
-                                <a href="https://linkedin.com/in/matheusquost" target="_blank"><i class="zmdi zmdi-linkedin"></i></a>
-                            </div>
-                            <div class="equipe-info">
-                                <h5>Matheus Quost</h5>
-                                <p>Criação e Desenvolvimento de Websites</p>
+            <div class="row">
+                <div class="col-lg-3 col-md-12 col-sm-12"></div>
+                <div class="col-lg-9 col-md-12 col-sm-12">
+                    <div class="row mgt-2">
+                        <div class="col-lg-2 col-md-12 col-sm-12"></div>
+                        <div class="col-lg-4 col-md-12 col-sm-12">
+                            <div class="equipe-area2 grow borderRadius mg-auto bkgnav">
+                                <div class="equipe-thumb">
+                                    <img src="utils/imagens/matheus.jpg" class="img-200-200" alt="">
+                                </div>
+                                <div class="social-info">
+                                    <a href="https://www.facebook.com/matheusquost" target="_blank"><i class="zmdi zmdi-facebook"></i></a>
+                                    <a href="https://www.instagram.com/matheus_quost" target="_blank"><i class="zmdi zmdi-instagram"></i></a>
+                                    <a href="https://linkedin.com/in/matheusquost" target="_blank"><i class="zmdi zmdi-linkedin"></i></a>
+                                </div>
+                                <div class="equipe-info">
+                                    <h5>Matheus Quost</h5>
+                                    <p>Criação e Desenvolvimento de Websites</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <br />
-                    <div class="col-lg-4 col-md-12 col-sm-12">
-                        <div class="equipe-area2 grow borderRadius mg-auto bkgnav">
-                            <div class="equipe-thumb">
-                                <img src="utils/imagens/milena.jpg" class="img-200-200" alt="">
-                            </div>
-                            <div class="social-info">
-                                <a href="https://www.facebook.com/milena.dalpaz" target="_blank"><i class="zmdi zmdi-facebook"></i></a>
-                                <a href="https://www.instagram.com/milenadalpaz/" target="_blank"><i class="zmdi zmdi-instagram"></i></a>
-                                <a href="https://www.linkedin.com/in/milena-dias-dal-paz-271743127/" target="_blank"><i class="zmdi zmdi-linkedin"></i></a>
-                            </div>
-                            <div class="equipe-info">
-                                <h5>Milena Dias Dal Paz</h5>
-                                <p>Arte Gráfica e Marketing Digital</p>
+                        <br />
+                        <div class="col-lg-4 col-md-12 col-sm-12 mgtCel">
+                            <div class="equipe-area2 grow borderRadius mg-auto bkgnav">
+                                <div class="equipe-thumb">
+                                    <img src="utils/imagens/milena.jpg" class="img-200-200" alt="">
+                                </div>
+                                <div class="social-info">
+                                    <a href="https://www.facebook.com/milena.dalpaz" target="_blank"><i class="zmdi zmdi-facebook"></i></a>
+                                    <a href="https://www.instagram.com/milenadalpaz/" target="_blank"><i class="zmdi zmdi-instagram"></i></a>
+                                    <a href="https://www.linkedin.com/in/milena-dias-dal-paz-271743127/" target="_blank"><i class="zmdi zmdi-linkedin"></i></a>
+                                </div>
+                                <div class="equipe-info">
+                                    <h5>Milena Dias Dal Paz</h5>
+                                    <p>Arte Gráfica e Marketing Digital</p>
+                                </div>
                             </div>
                         </div>
+                        <div class="col-lg-2 col-md-12 col-sm-12"></div>
                     </div>
-                    <div class="col-lg-2 col-md-12 col-sm-12"></div>
                 </div>
             </div>
         </div>
-    </div>
-    <h6 class="fixed-bottom navbar-light center preto">&copy; M2 Solutions
-        <script>
-            document.write(new Date().getFullYear());
-        </script> - Todos os direitos reservados.</h6>
+    </main>
+    <footer>
+        <!-- Classe Bootstrap para Rodapé -->
+        <div class="footer-area-bottom">
+            <!-- Container -->
+            <div class="container">
+                <!-- Linha -->
+                <div class="row">
+                    <!-- Coluna -->
+                    <div class="col">
+                        <h6 class="center preto mgt-2">&copy; M2 Solutions
+                            <script>
+                                document.write(new Date().getFullYear());
+                            </script> - Todos os direitos reservados.</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-    <!-- Importar arquivos JS -->
-    <script src="utils/jquery.js"></script>
-    <script src="utils/bootstrap/js/bootstrap.js"></script>
+    <!-- Importação de Scripts -->
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="utils/bootstrap/js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="utils/bootstrap/js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="utils/bootstrap/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript (Template) -->
+    <script type="text/javascript" src="utils/bootstrap/js/mdb.min.js"></script>
+    <!-- Your custom scripts  -->
     <script src="utils/principal.js"></script>
 </body>
 
